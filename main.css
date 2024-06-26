@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    margin-left: 16px;
+
+}
+
+.container { 
+    width: 1366px;
+    margin: 0 auto 0 auto;
+} 
+.artigo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigo article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.artigo article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.artigo article  {
+    margin-bottom: 16px;
+}
+
+.artigo article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.artigo article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:bold;
+    margin-top: 8px;
+
+}
+
+.artigo article a:hover {
+text-decoration: underline;
+}
+
+.artigo article p,
+.artigo article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigo article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1)
+}
+
+#sports .artigo article a {
+    background-color: rgba(0, 255, 0, 0.8);
+}
+
+#economia {
+    background-color: #f7f4a8;
+
+}
+
+#economia .artigo article a {
+    background-color: #ff9f1a;
+}
+
+#entrete {
+    background-color: #a5f2ed;
+    color: #012bfa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#entrete h2 {
+    padding: 16px 0;
+    color: #000000;
+}
+
+#entrete article p:hover {color: red;}
+
+#entrete h3 {
+    background-color: #05118f;
+    color: #fff;
+}
+
+#entrete .artigo article a {
+    background-color: #0295f8;
+}
+
+#tec {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tec h2 {
+    padding: 16px 0;
+    color: goldenrod;
+}
+
+#tec h3 {
+    color: greenyellow;
+}
+
+#tec .artigo article a {
+    background-color: #69fc7a;
+    color: #000000;
+}
+
+#tec article p:hover {color: rgb(0, 255, 204);}
